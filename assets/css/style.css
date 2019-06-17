@@ -1,3 +1,11 @@
+body {
+    background-image: url("../images/lemons.jpeg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 #spacer {
     margin-top: 40px;
 }
