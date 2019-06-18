@@ -1,9 +1,10 @@
 body {
     background-image: url("../images/background.jpeg");
     background-color: black;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    font-family: "Roboto Condensed", "Helvetica Neue", Verdana, Arial, sans-serif;
 }
 
 .card {
@@ -15,18 +16,12 @@ body {
 
 .navbar {
     font-family: "Roboto Condensed", "Helvetica Neue", Verdana, Arial, sans-serif;
+    width: 100%;
 }
 
-.navbar-brand {
-    text-align: center;
-}
 
 #spacer1 {
-    margin-top: 40px;
-}
-
-#spacer2 {
-    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #about-me {
