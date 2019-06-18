@@ -1,7 +1,7 @@
 body {
     background-image: url("../images/background.jpeg");
     background-color: black;
-    background-repeat: no-repeat;
+    background-repeat: repeat, no-repeat;
     background-size: cover;
     background-position: top;
     font-family: "Roboto Condensed", "Helvetica Neue", Verdana, Arial, sans-serif;
@@ -39,4 +39,11 @@ body {
 
 #footer-links {
     text-align: center;
+}
+
+.card-img-top {
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    margin-bottom: 10px;
 }
