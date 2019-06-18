@@ -1,10 +1,9 @@
 body {
-    background-image: url("../images/camera.jpg");
+    background-image: url("../images/background.jpeg");
     background-color: black;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-repeat: repeat;
+    background-size: cover;
     background-position: top;
-    
 }
 
 .card {
@@ -18,8 +17,16 @@ body {
     font-family: "Roboto Condensed", "Helvetica Neue", Verdana, Arial, sans-serif;
 }
 
+.navbar-brand {
+    text-align: center;
+}
+
 #spacer {
     margin-top: 40px;
+}
+
+#about-me {
+    height: 800px;
 }
 
 .rounded {
@@ -28,4 +35,7 @@ body {
     border-color: black;
     border-width: 5px;
     border-style: solid;
+}
+
+.portfolio-image {
 }
